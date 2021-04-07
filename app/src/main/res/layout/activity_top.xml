@@ -33,27 +33,40 @@
         <Button
             android:id="@+id/teamLoginButton"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="Playerログイン" />
 
         <Button
             android:id="@+id/playerLoginButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/teamLoginButton" />
+            android:layout_below="@+id/teamLoginButton"
+            android:text="Teamログイン" />
 
         <Button
             android:id="@+id/teamRegistrationButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentRight="true" />
+            android:layout_alignParentRight="true"
+            android:text="Player新規登録" />
 
         <Button
             android:id="@+id/playerRegistrationButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:layout_below="@+id/teamRegistrationButton"/>
+            android:layout_below="@+id/teamRegistrationButton"
+            android:text="Team新規登録" />
 
     </RelativeLayout>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
