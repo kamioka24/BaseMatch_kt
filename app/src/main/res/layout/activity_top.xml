@@ -7,9 +7,10 @@
     tools:context=".TopActivity">
 
     <RelativeLayout
-        android:id="@+id/mainImageArea"
+        android:id="@+id/topImageArea"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="250dp"
+        android:background="@drawable/top_image_bg"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -28,35 +29,44 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:text="@string/app_title"
+            android:textColor="@color/red"
             android:textSize="36sp"/>
 
         <Button
             android:id="@+id/teamLoginButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Playerログイン" />
+            android:layout_marginTop="10dp"
+            android:text="Playerログイン"
+            android:background="@drawable/button_style" />
 
         <Button
             android:id="@+id/playerLoginButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:layout_below="@+id/teamLoginButton"
-            android:text="Teamログイン" />
+            android:text="Teamログイン"
+            android:background="@drawable/button_style" />
 
         <Button
             android:id="@+id/teamRegistrationButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:layout_alignParentRight="true"
-            android:text="Player新規登録" />
+            android:text="Player新規登録"
+            android:background="@drawable/button_style" />
 
         <Button
             android:id="@+id/playerRegistrationButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:layout_alignParentRight="true"
             android:layout_below="@+id/teamRegistrationButton"
-            android:text="Team新規登録" />
+            android:text="Team新規登録"
+            android:background="@drawable/button_style" />
 
     </RelativeLayout>
 
