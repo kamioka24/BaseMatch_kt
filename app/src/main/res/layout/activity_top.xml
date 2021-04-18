@@ -33,29 +33,21 @@
             android:textSize="36sp"/>
 
         <Button
+            android:id="@+id/playerLoginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_style"
+            android:text="Playerログイン" />
+
+        <Button
             android:id="@+id/teamLoginButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Playerログイン"
-            android:background="@drawable/button_style" />
-
-        <Button
-            android:id="@+id/playerLoginButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_below="@+id/teamLoginButton"
+            android:layout_below="@+id/playerLoginButton"
             android:text="Teamログイン"
-            android:background="@drawable/button_style" />
-
-        <Button
-            android:id="@+id/teamRegistrationButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_alignParentRight="true"
-            android:text="Player新規登録"
             android:background="@drawable/button_style" />
 
         <Button
@@ -64,7 +56,16 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_alignParentRight="true"
-            android:layout_below="@+id/teamRegistrationButton"
+            android:text="Player新規登録"
+            android:background="@drawable/button_style" />
+
+        <Button
+            android:id="@+id/teamRegistrationButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/playerRegistrationButton"
             android:text="Team新規登録"
             android:background="@drawable/button_style" />
 
