@@ -7,13 +7,12 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/Theme.BaseMatch_kt">
-        <activity
-            android:name=".Player.PlayerTeamIndexActivity"
-            android:label="@string/title_activity_player_team_index"
-            android:theme="@style/Theme.BaseMatch_kt.NoActionBar"></activity>
-        <activity android:name=".MainActivity">
+        android:supportsRtl="true">
+        <activity android:name=".Player.PlayerTeamIndexActivity"/>
+        <activity android:name=".Player.PlayerTeamShowActivity"/>
+        <activity android:name=".TopActivity"/>
+
+        <activity android:name=".LaunchActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

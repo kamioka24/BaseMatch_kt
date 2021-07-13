@@ -1,15 +1,12 @@
 <resources>
-    <string name="app_name">BaseMatch_kt</string>
-    <string name="app_title">BaseMatch</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_player_team_index">PlayerTeamIndexActivity</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
+    <string name="app_name">BaseMatch</string>
+    <string name="launch_massage">野球しようよ！</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="back_button">戻る</string>
+
+    <string name="player_login">Playerログイン</string>
+    <string name="player_registration">Player新規登録</string>
+    <string name="team_login">Teamログイン</string>
+    <string name="team_registration">Team新規登録</string>
+
 </resources>
