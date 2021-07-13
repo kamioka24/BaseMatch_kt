@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.basematch_kt.Player.PlayerTeamIndexActivity
+import com.example.basematch_kt.Team.TeamTeamIndexActivity
 import kotlinx.android.synthetic.main.activity_top.*
 
 class TopActivity : AppCompatActivity() {
